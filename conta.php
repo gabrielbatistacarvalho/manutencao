@@ -28,7 +28,7 @@ if (isset($_POST['btnGravar'])) {
 
 <div class="container col-sm-4">
 <br>
-	<h2>Inscreva-se e comece a se surpreender!</h2>
+	<h2>Inscreva-se!</h2>
 	<form class="form-signin"  method="POST" action="" id="frmDados" name="frmDados">
 		<label for="txtUsuario">Usuário</label>
 		<input class="form-control" placeholder="Usuário" required="" 
