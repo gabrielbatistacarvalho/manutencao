@@ -9,7 +9,7 @@ if (isset($_POST['btnGravar'])) {
     if ($duplicidade == 0) {
         mysqli_query($conexao, "INSERT INTO login (usuario, Senha) VALUES ('$usuario','$senha')");
         echo "<script> alert('Sua conta foi criada com sucesso!'); </script>";
-        header("Location: http://localhost/trabalho/index.php");
+        header("Location: http://localhost/manutencao/index.php");
     } else {
         echo "<script> alert('Não é permitido este nome de usuário.'); </script>";
     }
